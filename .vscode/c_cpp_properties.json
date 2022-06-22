@@ -1,0 +1,73 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/rohit/code/zephyr/teensy-blink/include",
+                "/home/rohit/code/zephyr/teensy-blink/src",
+                "/home/rohit/.platformio/packages/framework-zephyr/include",
+                "/home/rohit/code/zephyr/teensy-blink/.pio/build/teensy41/zephyr/include/generated",
+                "/home/rohit/.platformio/packages/framework-zephyr/soc/arm/nxp_imx/rt",
+                "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MIMXRT1062",
+                "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/imx",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/rohit/code/zephyr/teensy-blink/include",
+                    "/home/rohit/code/zephyr/teensy-blink/src",
+                    "/home/rohit/.platformio/packages/framework-zephyr/include",
+                    "/home/rohit/code/zephyr/teensy-blink/.pio/build/teensy41/zephyr/include/generated",
+                    "/home/rohit/.platformio/packages/framework-zephyr/soc/arm/nxp_imx/rt",
+                    "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MIMXRT1062",
+                    "/home/rohit/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/imx",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60002",
+                "__IMXRT1062__",
+                "ARDUINO_TEENSY41",
+                "BUILD_VERSION=zephyr-v20701",
+                "BOARD_FLASH_SIZE=CONFIG_FLASH_SIZE*1024",
+                "CPU_MIMXRT1062DVJ6A",
+                "KERNEL",
+                "NDEBUG",
+                "XIP_BOOT_HEADER_ENABLE=1",
+                "_FORTIFY_SOURCE=2",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "/home/rohit/code/zephyr/teensy-blink/.pio/build/teensy41/zephyr/include/generated/autoconf.h",
+                "/home/rohit/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "/home/rohit/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m7",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "/home/rohit/.platformio/packages/framework-zephyr/lib/libc/minimal/include",
+                "-isystem",
+                "/home/rohit/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "/home/rohit/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
